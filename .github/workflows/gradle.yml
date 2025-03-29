@@ -33,11 +33,11 @@ jobs:
     - name: test with gradle
       run: ./gradlew test
 
-    - name: publish with gradle
-      run: /gradlew publish
+    # - name: publish with gradle
+    #   run: /gradlew publish
 
-    - name: deploy with gradle
-      run: ./gradlew deploy
+    # - name: deploy with gradle
+    #   run: ./gradlew deploy
 
 
 
